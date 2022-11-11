@@ -119,11 +119,11 @@ def clean_data():
                 print( station['name'], " -> " , other_station['name'], " --- " , cost)
                 station['connections'].append({
                     'name' : other_station['name'],
-                    'cost' : cost,
+                    'cost' : int(cost),
                     'fromline' : other_station['line'][0]
                 })
 
-                time.sleep(random.randint(1, 4))
+                time.sleep(random.randint(1, 2))
 
     # Merge the stations with the same id
     merged_stations = []
