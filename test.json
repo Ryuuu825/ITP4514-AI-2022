@@ -1,0 +1,35 @@
+[
+    {
+        "name" : "Lo Wu",
+        "connections" : [
+            {
+                "name" : "Sheung Shui",
+                "cost" : 6,
+                "onsameline" : true
+            }
+        ],
+        "line" : "East Rail Line",
+        "id" : 76,
+        "code" : "LOW", 
+        "Chinese Name" : "羅湖"
+    },
+    {
+        "name" : "Sheung Shui",
+        "connections" : [
+            {
+                "name" : "Lo Wu",
+                "cost" : 6,
+                "onsameline" : true
+            },
+            {
+                "name" : "Fanling",
+                "cost" : 6,
+                "onsameline" : true
+            }
+        ],
+        "line" : "East Rail Line",
+        "id" : 0,
+        "code" : "SHS", 
+        "Chinese Name" : "上水"
+    }
+]

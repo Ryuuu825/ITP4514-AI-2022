@@ -1,0 +1,2592 @@
+[
+    {
+        "name": "AsiaWorld-Expo",
+        "connections": [
+            {
+                "name": "Airport",
+                "cost": "2",
+                "fromline": "Airport Express"
+            }
+        ],
+        "line": [
+            "Airport Express"
+        ],
+        "line_code": [
+            "AEL"
+        ],
+        "id": 56,
+        "code": "AWE",
+        "Chinese Name": "博覽館",
+        "sequence": 1
+    },
+    {
+        "name": "Airport",
+        "connections": [
+            {
+                "name": "AsiaWorld-Expo",
+                "cost": "2",
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Tsing Yi",
+                "cost": "14",
+                "fromline": "Airport Express"
+            }
+        ],
+        "line": [
+            "Airport Express"
+        ],
+        "line_code": [
+            "AEL"
+        ],
+        "id": 47,
+        "code": "AIR",
+        "Chinese Name": "機場",
+        "sequence": 2
+    },
+    {
+        "name": "Tsing Yi",
+        "connections": [
+            {
+                "name": "Airport",
+                "cost": "14",
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Kowloon",
+                "cost": "5",
+                "fromline": "Airport Express"
+            }
+        ],
+        "line": [
+            "Airport Express"
+        ],
+        "line_code": [
+            "AEL"
+        ],
+        "id": 46,
+        "code": "TSY",
+        "Chinese Name": "青衣",
+        "sequence": 3
+    },
+    {
+        "name": "Kowloon",
+        "connections": [
+            {
+                "name": "Tsing Yi",
+                "cost": "4",
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Hong Kong",
+                "cost": "5",
+                "fromline": "Airport Express"
+            }
+        ],
+        "line": [
+            "Airport Express"
+        ],
+        "line_code": [
+            "AEL"
+        ],
+        "id": 45,
+        "code": "KOW",
+        "Chinese Name": "九龍",
+        "sequence": 4
+    },
+    {
+        "name": "Hong Kong",
+        "connections": [
+            {
+                "name": "Kowloon",
+                "cost": "5",
+                "fromline": "Airport Express"
+            }
+        ],
+        "line": [
+            "Airport Express"
+        ],
+        "line_code": [
+            "AEL"
+        ],
+        "id": 44,
+        "code": "HOK",
+        "Chinese Name": "香港",
+        "sequence": 5
+    },
+    {
+        "name": "Sunny Bay",
+        "connections": [
+            {
+                "name": "Disneyland Resort",
+                "cost": "6",
+                "fromline": "Disneyland Resort Line"
+            },
+            {
+                "name": "Tung Chung",
+                "cost": "10",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Tsing Yi",
+                "cost": "10",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Disneyland Resort Line",
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "DRL",
+            "TCL"
+        ],
+        "id": 54,
+        "code": "SUN",
+        "Chinese Name": "欣澳",
+        "sequence": 1
+    },
+    {
+        "name": "Disneyland Resort",
+        "connections": [
+            {
+                "name": "Sunny Bay",
+                "cost": "6",
+                "fromline": "Disneyland Resort Line"
+            }
+        ],
+        "line": [
+            "Disneyland Resort Line"
+        ],
+        "line_code": [
+            "DRL"
+        ],
+        "id": 55,
+        "code": "DIS",
+        "Chinese Name": "迪士尼",
+        "sequence": 2
+    },
+    {
+        "name": "Lo Wu",
+        "connections": [
+            {
+                "name": "Sheung Shui",
+                "cost": "6",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 76,
+        "code": "LOW",
+        "Chinese Name": "羅湖",
+        "sequence": 1
+    },
+    {
+        "name": "Sheung Shui",
+        "connections": [
+            {
+                "name": "Lo Wu",
+                "cost": "6",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Fanling",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 75,
+        "code": "SHS",
+        "Chinese Name": "上水",
+        "sequence": 2
+    },
+    {
+        "name": "Fanling",
+        "connections": [
+            {
+                "name": "Sheung Shui",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Tai Wo",
+                "cost": "6",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 74,
+        "code": "FAN",
+        "Chinese Name": "粉嶺",
+        "sequence": 3
+    },
+    {
+        "name": "Tai Wo",
+        "connections": [
+            {
+                "name": "Fanling",
+                "cost": "6",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Tai Po Market",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 73,
+        "code": "TWO",
+        "Chinese Name": "太和",
+        "sequence": 4
+    },
+    {
+        "name": "Tai Po Market",
+        "connections": [
+            {
+                "name": "Tai Wo",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "University",
+                "cost": "7",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 72,
+        "code": "TAP",
+        "Chinese Name": "大埔墟",
+        "sequence": 5
+    },
+    {
+        "name": "University",
+        "connections": [
+            {
+                "name": "Tai Po Market",
+                "cost": "7",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Fo Tan",
+                "cost": "5",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 71,
+        "code": "UNI",
+        "Chinese Name": "大學",
+        "sequence": 6
+    },
+    {
+        "name": "Fo Tan",
+        "connections": [
+            {
+                "name": "University",
+                "cost": "5",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Sha Tin",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 69,
+        "code": "FOT",
+        "Chinese Name": "火炭",
+        "sequence": 7
+    },
+    {
+        "name": "Sha Tin",
+        "connections": [
+            {
+                "name": "Fo Tan",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Tai Wai",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 68,
+        "code": "SHT",
+        "Chinese Name": "沙田",
+        "sequence": 8
+    },
+    {
+        "name": "Tai Wai",
+        "connections": [
+            {
+                "name": "Sha Tin",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Kowloon Tong",
+                "cost": "6",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Che Kung Temple",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Hin Keng",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "East Rail Line",
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "EAL",
+            "TML"
+        ],
+        "id": 67,
+        "code": "TAW",
+        "Chinese Name": "大圍",
+        "sequence": 9
+    },
+    {
+        "name": "Kowloon Tong",
+        "connections": [
+            {
+                "name": "Tai Wai",
+                "cost": "6",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Mong Kok East",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Lok Fu",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Shek Kip Mei",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "East Rail Line",
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "EAL",
+            "KTL"
+        ],
+        "id": 8,
+        "code": "KOT",
+        "Chinese Name": "九龍塘",
+        "sequence": 10
+    },
+    {
+        "name": "Mong Kok East",
+        "connections": [
+            {
+                "name": "Kowloon Tong",
+                "cost": "4",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Hung Hom",
+                "cost": "5",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 65,
+        "code": "MKK",
+        "Chinese Name": "旺角東",
+        "sequence": 11
+    },
+    {
+        "name": "Hung Hom",
+        "connections": [
+            {
+                "name": "Mong Kok East",
+                "cost": "5",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Exhibition Centre",
+                "cost": "5",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Ho Man Tin",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "East Tsim Sha Tsui",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "East Rail Line",
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "EAL",
+            "TML"
+        ],
+        "id": 64,
+        "code": "HUH",
+        "Chinese Name": "紅磡",
+        "sequence": 12
+    },
+    {
+        "name": "Exhibition Centre",
+        "connections": [
+            {
+                "name": "Hung Hom",
+                "cost": "5",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Admiralty",
+                "cost": "3",
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "EAL"
+        ],
+        "id": 94,
+        "code": "EXC",
+        "Chinese Name": "會展",
+        "sequence": 13
+    },
+    {
+        "name": "Admiralty",
+        "connections": [
+            {
+                "name": "Exhibition Centre",
+                "cost": "3",
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Wan Chai",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Central",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Tsim Sha Tsui",
+                "cost": "5",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Central",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Ocean Park",
+                "cost": "6",
+                "fromline": "South Island Line"
+            }
+        ],
+        "line": [
+            "East Rail Line",
+            "Island Line",
+            "Tsuen Wan Line",
+            "South Island Line"
+        ],
+        "line_code": [
+            "EAL",
+            "ISL",
+            "TWL",
+            "SIL"
+        ],
+        "id": 2,
+        "code": "ADM",
+        "Chinese Name": "金鐘",
+        "sequence": 14
+    },
+    {
+        "name": "Chai Wan",
+        "connections": [
+            {
+                "name": "Heng Fa Chuen",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 37,
+        "code": "CHW",
+        "Chinese Name": "柴灣",
+        "sequence": 1
+    },
+    {
+        "name": "Heng Fa Chuen",
+        "connections": [
+            {
+                "name": "Chai Wan",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Shau Kei Wan",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 36,
+        "code": "HFC",
+        "Chinese Name": "杏花邨",
+        "sequence": 2
+    },
+    {
+        "name": "Shau Kei Wan",
+        "connections": [
+            {
+                "name": "Heng Fa Chuen",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Sai Wan Ho",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 35,
+        "code": "SKW",
+        "Chinese Name": "筲箕灣",
+        "sequence": 3
+    },
+    {
+        "name": "Sai Wan Ho",
+        "connections": [
+            {
+                "name": "Shau Kei Wan",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Tai Koo",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 34,
+        "code": "SWH",
+        "Chinese Name": "西灣河",
+        "sequence": 4
+    },
+    {
+        "name": "Tai Koo",
+        "connections": [
+            {
+                "name": "Sai Wan Ho",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Quarry Bay",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 33,
+        "code": "TAK",
+        "Chinese Name": "太古",
+        "sequence": 5
+    },
+    {
+        "name": "Quarry Bay",
+        "connections": [
+            {
+                "name": "Tai Koo",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "North Point",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Yau Tong",
+                "cost": "5",
+                "fromline": "Tseung Kwan O Line"
+            },
+            {
+                "name": "North Point",
+                "cost": "3",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Island Line",
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "ISL",
+            "TKL"
+        ],
+        "id": 32,
+        "code": "QUB",
+        "Chinese Name": "鰂魚涌",
+        "sequence": 6
+    },
+    {
+        "name": "North Point",
+        "connections": [
+            {
+                "name": "Quarry Bay",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Fortress Hill",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Quarry Bay",
+                "cost": "3",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Island Line",
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "ISL",
+            "TKL"
+        ],
+        "id": 31,
+        "code": "NOP",
+        "Chinese Name": "北角",
+        "sequence": 7
+    },
+    {
+        "name": "Fortress Hill",
+        "connections": [
+            {
+                "name": "North Point",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Tin Hau",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 30,
+        "code": "FOH",
+        "Chinese Name": "炮台山",
+        "sequence": 8
+    },
+    {
+        "name": "Tin Hau",
+        "connections": [
+            {
+                "name": "Fortress Hill",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Causeway Bay",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 29,
+        "code": "TIH",
+        "Chinese Name": "天后",
+        "sequence": 9
+    },
+    {
+        "name": "Causeway Bay",
+        "connections": [
+            {
+                "name": "Tin Hau",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Wan Chai",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 28,
+        "code": "CAB",
+        "Chinese Name": "銅鑼灣",
+        "sequence": 10
+    },
+    {
+        "name": "Wan Chai",
+        "connections": [
+            {
+                "name": "Causeway Bay",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Admiralty",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 27,
+        "code": "WAC",
+        "Chinese Name": "灣仔",
+        "sequence": 11
+    },
+    {
+        "name": "Central",
+        "connections": [
+            {
+                "name": "Admiralty",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Sheung Wan",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Admiralty",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Island Line",
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "ISL",
+            "TWL"
+        ],
+        "id": 1,
+        "code": "CEN",
+        "Chinese Name": "中環",
+        "sequence": 13
+    },
+    {
+        "name": "Sheung Wan",
+        "connections": [
+            {
+                "name": "Central",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Sai Ying Pun",
+                "cost": "3",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 26,
+        "code": "SHW",
+        "Chinese Name": "上環",
+        "sequence": 14
+    },
+    {
+        "name": "Sai Ying Pun",
+        "connections": [
+            {
+                "name": "Sheung Wan",
+                "cost": "3",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "HKU",
+                "cost": "2",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 81,
+        "code": "SYP",
+        "Chinese Name": "西營盤",
+        "sequence": 15
+    },
+    {
+        "name": "HKU",
+        "connections": [
+            {
+                "name": "Sai Ying Pun",
+                "cost": "2",
+                "fromline": "Island Line"
+            },
+            {
+                "name": "Kennedy Town",
+                "cost": "2",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 82,
+        "code": "HKU",
+        "Chinese Name": "香港大學",
+        "sequence": 16
+    },
+    {
+        "name": "Kennedy Town",
+        "connections": [
+            {
+                "name": "HKU",
+                "cost": "2",
+                "fromline": "Island Line"
+            }
+        ],
+        "line": [
+            "Island Line"
+        ],
+        "line_code": [
+            "ISL"
+        ],
+        "id": 83,
+        "code": "KET",
+        "Chinese Name": "堅尼地城",
+        "sequence": 17
+    },
+    {
+        "name": "Tiu Keng Leng",
+        "connections": [
+            {
+                "name": "Yau Tong",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Tseung Kwan O",
+                "cost": "3",
+                "fromline": "Tseung Kwan O Line"
+            },
+            {
+                "name": "Yau Tong",
+                "cost": "4",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TKL"
+        ],
+        "id": 49,
+        "code": "TIK",
+        "Chinese Name": "調景嶺",
+        "sequence": 1
+    },
+    {
+        "name": "Yau Tong",
+        "connections": [
+            {
+                "name": "Tiu Keng Leng",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Lam Tin",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Tiu Keng Leng",
+                "cost": "4",
+                "fromline": "Tseung Kwan O Line"
+            },
+            {
+                "name": "Quarry Bay",
+                "cost": "5",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TKL"
+        ],
+        "id": 48,
+        "code": "YAT",
+        "Chinese Name": "油塘",
+        "sequence": 2
+    },
+    {
+        "name": "Lam Tin",
+        "connections": [
+            {
+                "name": "Yau Tong",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Kwun Tong",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 38,
+        "code": "LAT",
+        "Chinese Name": "藍田",
+        "sequence": 3
+    },
+    {
+        "name": "Kwun Tong",
+        "connections": [
+            {
+                "name": "Lam Tin",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Ngau Tau Kok",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 15,
+        "code": "KWT",
+        "Chinese Name": "觀塘",
+        "sequence": 4
+    },
+    {
+        "name": "Ngau Tau Kok",
+        "connections": [
+            {
+                "name": "Kwun Tong",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Kowloon Bay",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 14,
+        "code": "NTK",
+        "Chinese Name": "牛頭角",
+        "sequence": 5
+    },
+    {
+        "name": "Kowloon Bay",
+        "connections": [
+            {
+                "name": "Ngau Tau Kok",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Choi Hung",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 13,
+        "code": "KOB",
+        "Chinese Name": "九龍灣",
+        "sequence": 6
+    },
+    {
+        "name": "Choi Hung",
+        "connections": [
+            {
+                "name": "Kowloon Bay",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Diamond Hill",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 12,
+        "code": "CHH",
+        "Chinese Name": "彩虹",
+        "sequence": 7
+    },
+    {
+        "name": "Diamond Hill",
+        "connections": [
+            {
+                "name": "Choi Hung",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Wong Tai Sin",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Hin Keng",
+                "cost": "6",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Kai Tak",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TML"
+        ],
+        "id": 11,
+        "code": "DIH",
+        "Chinese Name": "鑽石山",
+        "sequence": 8
+    },
+    {
+        "name": "Wong Tai Sin",
+        "connections": [
+            {
+                "name": "Diamond Hill",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Lok Fu",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 10,
+        "code": "WTS",
+        "Chinese Name": "黃大仙",
+        "sequence": 9
+    },
+    {
+        "name": "Lok Fu",
+        "connections": [
+            {
+                "name": "Wong Tai Sin",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Kowloon Tong",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 9,
+        "code": "LOF",
+        "Chinese Name": "樂富",
+        "sequence": 10
+    },
+    {
+        "name": "Shek Kip Mei",
+        "connections": [
+            {
+                "name": "Kowloon Tong",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Prince Edward",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 7,
+        "code": "SKM",
+        "Chinese Name": "石硤尾",
+        "sequence": 12
+    },
+    {
+        "name": "Prince Edward",
+        "connections": [
+            {
+                "name": "Shek Kip Mei",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Mong Kok",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Sham Shui Po",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Mong Kok",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TWL"
+        ],
+        "id": 16,
+        "code": "PRE",
+        "Chinese Name": "太子",
+        "sequence": 13
+    },
+    {
+        "name": "Mong Kok",
+        "connections": [
+            {
+                "name": "Prince Edward",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Yau Ma Tei",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Prince Edward",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Yau Ma Tei",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TWL"
+        ],
+        "id": 6,
+        "code": "MOK",
+        "Chinese Name": "旺角",
+        "sequence": 14
+    },
+    {
+        "name": "Yau Ma Tei",
+        "connections": [
+            {
+                "name": "Mong Kok",
+                "cost": "3",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Ho Man Tin",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Mong Kok",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Jordan",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TWL"
+        ],
+        "id": 5,
+        "code": "YMT",
+        "Chinese Name": "油麻地",
+        "sequence": 15
+    },
+    {
+        "name": "Ho Man Tin",
+        "connections": [
+            {
+                "name": "Yau Ma Tei",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "Whampo",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            },
+            {
+                "name": "To Kwa Wan",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Hung Hom",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line",
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "KTL",
+            "TML"
+        ],
+        "id": 84,
+        "code": "HOM",
+        "Chinese Name": "何文田",
+        "sequence": 16
+    },
+    {
+        "name": "Whampo",
+        "connections": [
+            {
+                "name": "Ho Man Tin",
+                "cost": "4",
+                "fromline": "Kwun Tong Line"
+            }
+        ],
+        "line": [
+            "Kwun Tong Line"
+        ],
+        "line_code": [
+            "KTL"
+        ],
+        "id": 85,
+        "code": "WHA",
+        "Chinese Name": "黃埔",
+        "sequence": 17
+    },
+    {
+        "name": "Wu Kai Sha",
+        "connections": [
+            {
+                "name": "Ma On Shan",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 103,
+        "code": "WKS",
+        "Chinese Name": "烏溪沙",
+        "sequence": 1
+    },
+    {
+        "name": "Ma On Shan",
+        "connections": [
+            {
+                "name": "Wu Kai Sha",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Heng On",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 102,
+        "code": "MOS",
+        "Chinese Name": "馬鞍山",
+        "sequence": 2
+    },
+    {
+        "name": "Heng On",
+        "connections": [
+            {
+                "name": "Ma On Shan",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Tai Shui Hang",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 101,
+        "code": "HEO",
+        "Chinese Name": "恆安",
+        "sequence": 3
+    },
+    {
+        "name": "Tai Shui Hang",
+        "connections": [
+            {
+                "name": "Heng On",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Shek Mun",
+                "cost": "5",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 100,
+        "code": "TSH",
+        "Chinese Name": "大水坑",
+        "sequence": 4
+    },
+    {
+        "name": "Shek Mun",
+        "connections": [
+            {
+                "name": "Tai Shui Hang",
+                "cost": "5",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "City One",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 99,
+        "code": "SHM",
+        "Chinese Name": "石門",
+        "sequence": 5
+    },
+    {
+        "name": "City One",
+        "connections": [
+            {
+                "name": "Shek Mun",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Sha Tin Wai",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 98,
+        "code": "CIO",
+        "Chinese Name": "第一城",
+        "sequence": 6
+    },
+    {
+        "name": "Sha Tin Wai",
+        "connections": [
+            {
+                "name": "City One",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Che Kung Temple",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 97,
+        "code": "STW",
+        "Chinese Name": "沙田圍",
+        "sequence": 7
+    },
+    {
+        "name": "Che Kung Temple",
+        "connections": [
+            {
+                "name": "Sha Tin Wai",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Tai Wai",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 96,
+        "code": "CKT",
+        "Chinese Name": "車公廟",
+        "sequence": 8
+    },
+    {
+        "name": "Hin Keng",
+        "connections": [
+            {
+                "name": "Tai Wai",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Diamond Hill",
+                "cost": "6",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 90,
+        "code": "HIK",
+        "Chinese Name": "顯徑",
+        "sequence": 10
+    },
+    {
+        "name": "Kai Tak",
+        "connections": [
+            {
+                "name": "Diamond Hill",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Sung Wong Toi",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 91,
+        "code": "KAT",
+        "Chinese Name": "啟德",
+        "sequence": 12
+    },
+    {
+        "name": "Sung Wong Toi",
+        "connections": [
+            {
+                "name": "Kai Tak",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "To Kwa Wan",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 92,
+        "code": "SUW",
+        "Chinese Name": "宋皇臺",
+        "sequence": 13
+    },
+    {
+        "name": "To Kwa Wan",
+        "connections": [
+            {
+                "name": "Sung Wong Toi",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Ho Man Tin",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 93,
+        "code": "TKW",
+        "Chinese Name": "土瓜灣",
+        "sequence": 14
+    },
+    {
+        "name": "East Tsim Sha Tsui",
+        "connections": [
+            {
+                "name": "Hung Hom",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Austin",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 80,
+        "code": "ETS",
+        "Chinese Name": "尖東",
+        "sequence": 17
+    },
+    {
+        "name": "Austin",
+        "connections": [
+            {
+                "name": "East Tsim Sha Tsui",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Nam Cheong",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 111,
+        "code": "AUS",
+        "Chinese Name": "柯士甸",
+        "sequence": 18
+    },
+    {
+        "name": "Nam Cheong",
+        "connections": [
+            {
+                "name": "Austin",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Mei Foo",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Lai King",
+                "cost": "6",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Olympic",
+                "cost": "4",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line",
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "TML",
+            "TCL"
+        ],
+        "id": 53,
+        "code": "NAC",
+        "Chinese Name": "南昌",
+        "sequence": 19
+    },
+    {
+        "name": "Mei Foo",
+        "connections": [
+            {
+                "name": "Nam Cheong",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Tsuen Wan West",
+                "cost": "6",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Lai King",
+                "cost": "4",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Lai Chi Kok",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line",
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TML",
+            "TWL"
+        ],
+        "id": 20,
+        "code": "MEF",
+        "Chinese Name": "美孚",
+        "sequence": 20
+    },
+    {
+        "name": "Tsuen Wan West",
+        "connections": [
+            {
+                "name": "Mei Foo",
+                "cost": "6",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Kam Sheung Road",
+                "cost": "7",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 114,
+        "code": "TWW",
+        "Chinese Name": "荃灣西",
+        "sequence": 21
+    },
+    {
+        "name": "Kam Sheung Road",
+        "connections": [
+            {
+                "name": "Tsuen Wan West",
+                "cost": "7",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Yuen Long",
+                "cost": "5",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 115,
+        "code": "KSR",
+        "Chinese Name": "錦上路",
+        "sequence": 22
+    },
+    {
+        "name": "Yuen Long",
+        "connections": [
+            {
+                "name": "Kam Sheung Road",
+                "cost": "5",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Long Ping",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 116,
+        "code": "YUL",
+        "Chinese Name": "元朗",
+        "sequence": 23
+    },
+    {
+        "name": "Long Ping",
+        "connections": [
+            {
+                "name": "Yuen Long",
+                "cost": "3",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Tin Shui Wai",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 117,
+        "code": "LOP",
+        "Chinese Name": "朗屏",
+        "sequence": 24
+    },
+    {
+        "name": "Tin Shui Wai",
+        "connections": [
+            {
+                "name": "Long Ping",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Siu Hong",
+                "cost": "6",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 118,
+        "code": "TIS",
+        "Chinese Name": "天水圍",
+        "sequence": 25
+    },
+    {
+        "name": "Siu Hong",
+        "connections": [
+            {
+                "name": "Tin Shui Wai",
+                "cost": "6",
+                "fromline": "Tuen Ma Line"
+            },
+            {
+                "name": "Tuen Mun",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 119,
+        "code": "SIH",
+        "Chinese Name": "兆康",
+        "sequence": 26
+    },
+    {
+        "name": "Tuen Mun",
+        "connections": [
+            {
+                "name": "Siu Hong",
+                "cost": "4",
+                "fromline": "Tuen Ma Line"
+            }
+        ],
+        "line": [
+            "Tuen Ma Line"
+        ],
+        "line_code": [
+            "TML"
+        ],
+        "id": 120,
+        "code": "TUM",
+        "Chinese Name": "屯門",
+        "sequence": 27
+    },
+    {
+        "name": "Tung Chung",
+        "connections": [
+            {
+                "name": "Sunny Bay",
+                "cost": "10",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "TCL"
+        ],
+        "id": 43,
+        "code": "TUC",
+        "Chinese Name": "東涌",
+        "sequence": 1
+    },
+    {
+        "name": "Tsing Yi",
+        "connections": [
+            {
+                "name": "Sunny Bay",
+                "cost": "10",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Lai King",
+                "cost": "5",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "TCL"
+        ],
+        "id": 42,
+        "code": "TSY",
+        "Chinese Name": "青衣",
+        "sequence": 3
+    },
+    {
+        "name": "Lai King",
+        "connections": [
+            {
+                "name": "Tsing Yi",
+                "cost": "5",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Nam Cheong",
+                "cost": "6",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Kwai Fong",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Mei Foo",
+                "cost": "4",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tung Chung Line",
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TCL",
+            "TWL"
+        ],
+        "id": 21,
+        "code": "LAK",
+        "Chinese Name": "茘景",
+        "sequence": 4
+    },
+    {
+        "name": "Olympic",
+        "connections": [
+            {
+                "name": "Nam Cheong",
+                "cost": "4",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Kowloon",
+                "cost": "4",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "TCL"
+        ],
+        "id": 41,
+        "code": "OLY",
+        "Chinese Name": "奧運",
+        "sequence": 6
+    },
+    {
+        "name": "Kowloon",
+        "connections": [
+            {
+                "name": "Olympic",
+                "cost": "4",
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Hong Kong",
+                "cost": "5",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "TCL"
+        ],
+        "id": 40,
+        "code": "KOW",
+        "Chinese Name": "九龍",
+        "sequence": 7
+    },
+    {
+        "name": "Hong Kong",
+        "connections": [
+            {
+                "name": "Kowloon",
+                "cost": "5",
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "line": [
+            "Tung Chung Line"
+        ],
+        "line_code": [
+            "TCL"
+        ],
+        "id": 39,
+        "code": "HOK",
+        "Chinese Name": "香港",
+        "sequence": 8
+    },
+    {
+        "name": "Po Lam",
+        "connections": [
+            {
+                "name": "Hang Hau",
+                "cost": "3",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "TKL"
+        ],
+        "id": 52,
+        "code": "POA",
+        "Chinese Name": "寶琳",
+        "sequence": 1
+    },
+    {
+        "name": "Hang Hau",
+        "connections": [
+            {
+                "name": "Po Lam",
+                "cost": "3",
+                "fromline": "Tseung Kwan O Line"
+            },
+            {
+                "name": "Tseung Kwan O",
+                "cost": "4",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "TKL"
+        ],
+        "id": 51,
+        "code": "HAH",
+        "Chinese Name": "坑口",
+        "sequence": 2
+    },
+    {
+        "name": "Tseung Kwan O",
+        "connections": [
+            {
+                "name": "Hang Hau",
+                "cost": "4",
+                "fromline": "Tseung Kwan O Line"
+            },
+            {
+                "name": "Tiu Keng Leng",
+                "cost": "3",
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "TKL"
+        ],
+        "id": 50,
+        "code": "TKO",
+        "Chinese Name": "將軍澳",
+        "sequence": 3
+    },
+    {
+        "name": "Tsuen Wan",
+        "connections": [
+            {
+                "name": "Tai Wo Hau",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 25,
+        "code": "TSW",
+        "Chinese Name": "荃灣",
+        "sequence": 1
+    },
+    {
+        "name": "Tai Wo Hau",
+        "connections": [
+            {
+                "name": "Tsuen Wan",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Kwai Hing",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 24,
+        "code": "TWH",
+        "Chinese Name": "大窩口",
+        "sequence": 2
+    },
+    {
+        "name": "Kwai Hing",
+        "connections": [
+            {
+                "name": "Tai Wo Hau",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Kwai Fong",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 23,
+        "code": "KWH",
+        "Chinese Name": "葵興",
+        "sequence": 3
+    },
+    {
+        "name": "Kwai Fong",
+        "connections": [
+            {
+                "name": "Kwai Hing",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Lai King",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 22,
+        "code": "KWF",
+        "Chinese Name": "葵芳",
+        "sequence": 4
+    },
+    {
+        "name": "Lai Chi Kok",
+        "connections": [
+            {
+                "name": "Mei Foo",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Cheung Sha Wan",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 19,
+        "code": "LCK",
+        "Chinese Name": "茘枝角",
+        "sequence": 7
+    },
+    {
+        "name": "Cheung Sha Wan",
+        "connections": [
+            {
+                "name": "Lai Chi Kok",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Sham Shui Po",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 18,
+        "code": "CSW",
+        "Chinese Name": "長沙灣",
+        "sequence": 8
+    },
+    {
+        "name": "Sham Shui Po",
+        "connections": [
+            {
+                "name": "Cheung Sha Wan",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Prince Edward",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 17,
+        "code": "SSP",
+        "Chinese Name": "深水埗",
+        "sequence": 9
+    },
+    {
+        "name": "Jordan",
+        "connections": [
+            {
+                "name": "Yau Ma Tei",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Tsim Sha Tsui",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 4,
+        "code": "JOR",
+        "Chinese Name": "佐敦",
+        "sequence": 13
+    },
+    {
+        "name": "Tsim Sha Tsui",
+        "connections": [
+            {
+                "name": "Jordan",
+                "cost": "3",
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Admiralty",
+                "cost": "5",
+                "fromline": "Tsuen Wan Line"
+            }
+        ],
+        "line": [
+            "Tsuen Wan Line"
+        ],
+        "line_code": [
+            "TWL"
+        ],
+        "id": 3,
+        "code": "TST",
+        "Chinese Name": "尖沙咀",
+        "sequence": 14
+    },
+    {
+        "name": "Ocean Park",
+        "connections": [
+            {
+                "name": "Admiralty",
+                "cost": "6",
+                "fromline": "South Island Line"
+            },
+            {
+                "name": "Wong Chuk Hang",
+                "cost": "4",
+                "fromline": "South Island Line"
+            }
+        ],
+        "line": [
+            "South Island Line"
+        ],
+        "line_code": [
+            "SIL"
+        ],
+        "id": 86,
+        "code": "OCP",
+        "Chinese Name": "海洋公園",
+        "sequence": 2
+    },
+    {
+        "name": "Wong Chuk Hang",
+        "connections": [
+            {
+                "name": "Ocean Park",
+                "cost": "4",
+                "fromline": "South Island Line"
+            },
+            {
+                "name": "Lei Tung",
+                "cost": "4",
+                "fromline": "South Island Line"
+            }
+        ],
+        "line": [
+            "South Island Line"
+        ],
+        "line_code": [
+            "SIL"
+        ],
+        "id": 87,
+        "code": "WCH",
+        "Chinese Name": "黃竹坑",
+        "sequence": 3
+    },
+    {
+        "name": "Lei Tung",
+        "connections": [
+            {
+                "name": "Wong Chuk Hang",
+                "cost": "4",
+                "fromline": "South Island Line"
+            },
+            {
+                "name": "South Horizons",
+                "cost": "4",
+                "fromline": "South Island Line"
+            }
+        ],
+        "line": [
+            "South Island Line"
+        ],
+        "line_code": [
+            "SIL"
+        ],
+        "id": 88,
+        "code": "LET",
+        "Chinese Name": "利東",
+        "sequence": 4
+    },
+    {
+        "name": "South Horizons",
+        "connections": [
+            {
+                "name": "Lei Tung",
+                "cost": "4",
+                "fromline": "South Island Line"
+            }
+        ],
+        "line": [
+            "South Island Line"
+        ],
+        "line_code": [
+            "SIL"
+        ],
+        "id": 89,
+        "code": "SOH",
+        "Chinese Name": "海怡半島",
+        "sequence": 5
+    }
+]
