@@ -45,76 +45,6 @@
         "sequence": 2
     },
     {
-        "name": "Tsing Yi",
-        "connections": [
-            {
-                "name": "Airport",
-                "cost": 14,
-                "fromline": "Airport Express"
-            },
-            {
-                "name": "Kowloon",
-                "cost": 5,
-                "fromline": "Airport Express"
-            }
-        ],
-        "line": [
-            "Airport Express"
-        ],
-        "line_code": [
-            "AEL"
-        ],
-        "id": 46,
-        "code": "TSY",
-        "Chinese Name": "青衣",
-        "sequence": 3
-    },
-    {
-        "name": "Kowloon",
-        "connections": [
-            {
-                "name": "Tsing Yi",
-                "cost": 4,
-                "fromline": "Airport Express"
-            },
-            {
-                "name": "Hong Kong",
-                "cost": 5,
-                "fromline": "Airport Express"
-            }
-        ],
-        "line": [
-            "Airport Express"
-        ],
-        "line_code": [
-            "AEL"
-        ],
-        "id": 45,
-        "code": "KOW",
-        "Chinese Name": "九龍",
-        "sequence": 4
-    },
-    {
-        "name": "Hong Kong",
-        "connections": [
-            {
-                "name": "Kowloon",
-                "cost": 5,
-                "fromline": "Airport Express"
-            }
-        ],
-        "line": [
-            "Airport Express"
-        ],
-        "line_code": [
-            "AEL"
-        ],
-        "id": 44,
-        "code": "HOK",
-        "Chinese Name": "香港",
-        "sequence": 5
-    },
-    {
         "name": "Sunny Bay",
         "connections": [
             {
@@ -197,6 +127,11 @@
             {
                 "name": "Fanling",
                 "cost": 4,
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Lok Ma Chau",
+                "cost": 12,
                 "fromline": "East Rail Line"
             }
         ],
@@ -298,6 +233,11 @@
                 "name": "Fo Tan",
                 "cost": 5,
                 "fromline": "East Rail Line"
+            },
+            {
+                "name": "Racecourse",
+                "cost": 8,
+                "fromline": "East Rail Line"
             }
         ],
         "line": [
@@ -347,6 +287,11 @@
             {
                 "name": "Tai Wai",
                 "cost": 4,
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Racecourse",
+                "cost": 9,
                 "fromline": "East Rail Line"
             }
         ],
@@ -929,6 +874,16 @@
                 "name": "Admiralty",
                 "cost": 3,
                 "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Hong Kong",
+                "cost": 7,
+                "fromline": "Tsuen Wan Line"
+            },
+            {
+                "name": "Hong Kong",
+                "cost": 7,
+                "fromline": "Island Line"
             }
         ],
         "line": [
@@ -2174,13 +2129,25 @@
                 "name": "Lai King",
                 "cost": 5,
                 "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Airport",
+                "cost": 14,
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Kowloon",
+                "cost": 5,
+                "fromline": "Airport Express"
             }
         ],
         "line": [
-            "Tung Chung Line"
+            "Tung Chung Line",
+            "Airport Express"
         ],
         "line_code": [
-            "TCL"
+            "TCL",
+            "AEL"
         ],
         "id": 42,
         "code": "TSY",
@@ -2261,13 +2228,25 @@
                 "name": "Hong Kong",
                 "cost": 5,
                 "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Tsing Yi",
+                "cost": 4,
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Hong Kong",
+                "cost": 5,
+                "fromline": "Airport Express"
             }
         ],
         "line": [
-            "Tung Chung Line"
+            "Tung Chung Line",
+            "Airport Express"
         ],
         "line_code": [
-            "TCL"
+            "TCL",
+            "AEL"
         ],
         "id": 40,
         "code": "KOW",
@@ -2281,13 +2260,30 @@
                 "name": "Kowloon",
                 "cost": 5,
                 "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Kowloon",
+                "cost": 5,
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Central",
+                "cost": 7,
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "name": "Central",
+                "cost": 7,
+                "fromline": "Airport Express"
             }
         ],
         "line": [
-            "Tung Chung Line"
+            "Tung Chung Line",
+            "Airport Express"
         ],
         "line_code": [
-            "TCL"
+            "TCL",
+            "AEL"
         ],
         "id": 39,
         "code": "HOK",
@@ -2350,6 +2346,11 @@
             {
                 "name": "Tiu Keng Leng",
                 "cost": 3,
+                "fromline": "Tseung Kwan O Line"
+            },
+            {
+                "name": "LOHAS Park",
+                "cost": 7,
                 "fromline": "Tseung Kwan O Line"
             }
         ],
@@ -2678,5 +2679,70 @@
         "code": "SOH",
         "Chinese Name": "海怡半島",
         "sequence": 5
+    },
+    {
+        "name": "Lok Ma Chau",
+        "connections": [
+            {
+                "name": "Sheung Shui",
+                "cost": 12,
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "ERL"
+        ],
+        "id": 78,
+        "code": "LMC",
+        "Chinese Name": "落馬洲",
+        "sequence": 14
+    },
+    {
+        "name": "LOHAS Park",
+        "connections": [
+            {
+                "name": "Tseung Kwan O",
+                "cost": 7,
+                "fromline": "Tseung Kwan O Line"
+            }
+        ],
+        "line": [
+            "Tseung Kwan O Line"
+        ],
+        "line_code": [
+            "TKL"
+        ],
+        "id": 57,
+        "code": "LHP",
+        "Chinese Name": "康城",
+        "sequence": 4
+    },
+    {
+        "name": "Racecourse",
+        "connections": [
+            {
+                "name": "University",
+                "cost": 8,
+                "fromline": "East Rail Line"
+            },
+            {
+                "name": "Sha Tin",
+                "cost": 9,
+                "fromline": "East Rail Line"
+            }
+        ],
+        "line": [
+            "East Rail Line"
+        ],
+        "line_code": [
+            "ERL"
+        ],
+        "id": 70,
+        "code": "RAC",
+        "Chinese Name": "馬場",
+        "sequence": 4
     }
 ]
