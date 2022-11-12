@@ -901,7 +901,7 @@
             },
             {
                 "name": "Hong Kong",
-                "cost": 0,
+                "cost": 7,
                 "fromline": "Walking"
             }
         ],
@@ -912,12 +912,6 @@
         "line_code": [
             "ISL",
             "TWL"
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 7
-            }
         ],
         "id": 1,
         "code": "CEN",
@@ -1863,14 +1857,8 @@
             },
             {
                 "name": "Tsim Sha Tsui",
-                "cost": 0,
+                "cost": 11,
                 "fromline": "Walking"
-            }
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 11
             }
         ],
         "line": [
@@ -1899,14 +1887,8 @@
             },
             {
                 "name": "Hong Kong West Kowloon",
-                "cost": 0,
+                "cost": 4,
                 "fromline": "Walking"
-            }
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 4
             }
         ],
         "line": [
@@ -2340,14 +2322,8 @@
             },
             {
                 "name": "Hong Kong West Kowloon",
-                "cost": 0,
+                "cost": 11,
                 "fromline": "Walking"
-            }
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 11
             }
         ],
         "line": [
@@ -2378,7 +2354,7 @@
             },
             {
                 "name": "Central",
-                "cost": 0,
+                "cost": 7,
                 "fromline": "Walking"
             }
         ],
@@ -2389,12 +2365,6 @@
         "line_code": [
             "TCL",
             "AEL"
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 7
-            }
         ],
         "id": 39,
         "code": "HOK",
@@ -2696,14 +2666,8 @@
             },
             {
                 "name": "East Tsim Sha Tsui",
-                "cost": 0,
+                "cost": 11,
                 "fromline": "Walking"
-            }
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 11
             }
         ],
         "line": [
@@ -2882,19 +2846,13 @@
         "connections": [
             {
                 "name": "Kowloon",
-                "cost": 0,
+                "cost": 11,
                 "fromline": "Walking"
             },
             {
                 "name": "Austin",
-                "cost": 0,
+                "cost": 4,
                 "fromline": "Walking"
-            }
-        ],
-        "walkingTime": [
-            {
-                "to": "Walking",
-                "time": 11
             }
         ],
         "line": [
