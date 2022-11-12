@@ -81,7 +81,7 @@ def clean_data():
         lines = f.readlines()
     with open(os.path.join('..', 'dirty', 'mtr_lines_fares.csv')) as f:
         fares = f.readlines()
-    with open(os.path.join('..', 'dirty', 'LineInfo.json')) as f:
+    with open(os.path.join('..', 'clean', 'LineInfo.json')) as f:
         line_info = json.load(f)
 
     # Clean the data

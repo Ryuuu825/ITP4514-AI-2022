@@ -393,6 +393,16 @@
             "EAL",
             "TML"
         ],
+        "walkingTime" : [
+            {
+                "to" : "East Rail Line",
+                "time" : 6
+            },
+            {
+                "to" : "Tuen Ma Line",
+                "time" : 6
+            }
+        ],
         "id": 67,
         "code": "TAW",
         "Chinese Name": "大圍",
@@ -429,6 +439,16 @@
         "line_code": [
             "EAL",
             "KTL"
+        ],
+        "walkingTime" : [
+            {
+                "to" : "East Rail Line",
+                "time" : 6
+            },
+            {
+                "to" : "Kwun Tong Line",
+                "time" : 6
+            }
         ],
         "id": 8,
         "code": "KOT",
@@ -491,6 +511,16 @@
         "line_code": [
             "EAL",
             "TML"
+        ],
+        "walkingTime" : [
+            {
+                "to" : "East Rail Line",
+                "time" : 3
+            },
+            {
+                "to" : "Tuen Ma Line",
+                "time" : 3
+            }
         ],
         "id": 64,
         "code": "HUH",
@@ -725,6 +755,16 @@
             "ISL",
             "TKL"
         ],
+        "walkingTime" : [
+            {
+                "to" : "Islan Line",
+                "time" : 5
+            },
+            {
+                "to" : "Tseung Kwan O Line",
+                "time" : 5
+            }
+        ],
         "id": 32,
         "code": "QUB",
         "Chinese Name": "鰂魚涌",
@@ -756,6 +796,16 @@
         "line_code": [
             "ISL",
             "TKL"
+        ],
+        "walkingTime" : [
+            {
+                "to" : "Islan Line",
+                "time" : 7
+            },
+            {
+                "to" : "Tseung Kwan O Line",
+                "time" : 7
+            }
         ],
         "id": 31,
         "code": "NOP",
@@ -1053,6 +1103,16 @@
             "KTL",
             "TKL"
         ],
+        "walkingTime" : [
+            {
+                "to" : "Tseung Kwan O Line",
+                "time" : 3
+            },
+            {
+                "to" : "Kwun Tong Line",
+                "time" : 3
+            }
+        ],
         "id": 48,
         "code": "YAT",
         "Chinese Name": "油塘",
@@ -1214,6 +1274,16 @@
         "line_code": [
             "KTL",
             "TML"
+        ],
+        "walkingTime" : [
+            {
+                "to" : "Kwun Tong Line",
+                "time" : 4
+            },
+            {
+                "to" : "Tuen Ma Line",
+                "time" : 6
+            }
         ],
         "id": 11,
         "code": "DIH",
@@ -1437,6 +1507,16 @@
         "line_code": [
             "KTL",
             "TML"
+        ],
+        "walkingTime" : [
+            {
+                "to" : "Tuen Ma Line",
+                "time" : 4
+            },
+            {
+                "to" : "Kwun Tong Line",
+                "time" : 4
+            }
         ],
         "id": 84,
         "code": "HOM",
@@ -1876,6 +1956,16 @@
         "line_code": [
             "TML",
             "TWL"
+        ],
+        "walkingTime" : [
+            {
+                "to" : "Tuen Ma Line",
+                "time" : 6
+            },
+            {
+                "to" : "Tsuen Wan Line",
+                "time" : 6
+            }
         ],
         "id": 20,
         "code": "MEF",
