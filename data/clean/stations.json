@@ -33,7 +33,19 @@
                 "name": "Tsing Yi",
                 "cost": 14,
                 "fromline": "Airport Express",
-                "id": 42
+                "id": 46
+            },
+            {
+                "name": "Kowloon",
+                "cost": 22,
+                "fromline": "Airport Express",
+                "id": 45
+            },
+            {
+                "name": "Hong Kong",
+                "cost": 24,
+                "fromline": "Airport Express",
+                "id": 44
             }
         ],
         "line": [
@@ -76,6 +88,10 @@
             }
         ],
         "walkingTime": [
+            {
+                "to": "Tung Chung Line",
+                "time": 2
+            },
             {
                 "to": "Disneyland Resort Line",
                 "time": 2
@@ -984,6 +1000,12 @@
                 "cost": 7,
                 "fromline": "Walking",
                 "id": 39
+            },
+            {
+                "name": "Hong Kong",
+                "cost": 7,
+                "fromline": "Walking",
+                "id": 44
             }
         ],
         "line": [
@@ -2383,21 +2405,29 @@
                 "name": "Lai King",
                 "cost": 5,
                 "fromline": "Tung Chung Line"
+            },
+            {
+                "id": 46,
+                "name": "Tsing Yi",
+                "cost": 0,
+                "fromline": "Airport Express"
             }
         ],
         "walkingTime": [
             {
                 "to": "Airport Express",
                 "time": 5
+            },
+            {
+                "to": "Tung Chung Line",
+                "time": 5
             }
         ],
         "line": [
-            "Tung Chung Line",
-            "Airport Express"
+            "Tung Chung Line"
         ],
         "line_code": [
-            "TCL",
-            "AEL"
+            "TCL"
         ],
         "id": 42,
         "code": "TSY",
@@ -2414,19 +2444,39 @@
                 "fromline": "Airport Express"
             },
             {
-                "id": 45,
-                "name": "Kowloon",
+                "id": 54,
+                "name": "Sunny Bay",
+                "cost": 10,
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "id": 21,
+                "name": "Lai King",
                 "cost": 5,
+                "fromline": "Tung Chung Line"
+            },
+            {
+                "id": 42,
+                "name": "Tsing Yi",
+                "cost": 0,
                 "fromline": "Airport Express"
             }
         ],
+        "walkingTime": [
+            {
+                "to": "Airport Express",
+                "time": 5
+            },
+            {
+                "to": "Tung Chung Line",
+                "time": 5
+            }
+        ],
         "line": [
-            "Airport Express",
-            "Tung Chung Line"
+            "Airport Express"
         ],
         "line_code": [
-            "AEL",
-            "TCL"
+            "AEL"
         ],
         "id": 46,
         "code": "TSY",
@@ -2459,17 +2509,15 @@
                 "cost": 4,
                 "fromline": "Tsuen Wan Line",
                 "id": 20
-            },
-            {
-                "name": "Tsing Yi",
-                "cost": 5,
-                "fromline": "Tung Chung Line",
-                "id": 46
             }
         ],
         "walkingTime": [
             {
                 "to": "Tsuen Wan Line",
+                "time": 2
+            },
+            {
+                "to": "Tung Chung Line",
                 "time": 2
             }
         ],
@@ -2535,6 +2583,12 @@
                 "id": 888
             }
         ],
+        "walkingTime": [
+            {
+                "to": "Tung Chung Line",
+                "time": 4
+            }
+        ],
         "line": [
             "Tung Chung Line",
             "Airport Express"
@@ -2552,22 +2606,28 @@
         "name": "Kowloon",
         "connections": [
             {
-                "id":46,
-                "name": "Tsing Yi",
+                "id":47,
+                "name": "Airport",
+                "cost": 22,
+                "fromline": "Airport Express"
+            },
+            {
+                "name": "Olympic",
                 "cost": 4,
-                "fromline": "Airport Express"
+                "fromline": "Tung Chung Line",
+                "id": 41
             },
             {
-                "id": 44,
-                "name": "Hong Kong",
-                "cost": 2,
-                "fromline": "Airport Express"
-            },
-            {
-                "id": 888,
                 "name": "Hong Kong West Kowloon",
                 "cost": 11,
-                "fromline": "Walking"
+                "fromline": "Walking",
+                "id": 888
+            }
+        ],
+        "walkingTime": [
+            {
+                "to": "Tung Chung Line",
+                "time": 4
             }
         ],
         "line": [
@@ -2595,13 +2655,31 @@
                 "name": "Central",
                 "cost": 7,
                 "fromline": "Walking"
+            },
+            {
+                "id": 44,
+                "name": "Hong Kong",
+                "cost": 0,
+                "fromline": "Tung Chung Line"
+            }
+        ],
+        "walkingTime": [
+            {
+                "to": "Tung Chung Line",
+                "time": 3
+            },
+            {
+                "to": "Airport Express",
+                "time": 3
             }
         ],
         "line": [
-            "Tung Chung Line"
+            "Tung Chung Line",
+            "Airport Express"
         ],
         "line_code": [
-            "TCL"
+            "TCL",
+            "AEL"
         ],
         "id": 39,
         "code": "HOK",
@@ -2612,9 +2690,9 @@
         "name": "Hong Kong",
         "connections": [
             {
-                "id": 45,
-                "name": "Kowloon",
-                "cost": 5,
+                "id": 47,
+                "name": "Airport",
+                "cost": 24,
                 "fromline": "Airport Express"
             },
             {
@@ -2622,6 +2700,22 @@
                 "name": "Central",
                 "cost": 7,
                 "fromline": "Walking"
+            },
+            {
+                "id": 39,
+                "name": "Hong Kong",
+                "cost": 0,
+                "fromline": "Airport Express"
+            }
+        ],
+        "walkingTime": [
+            {
+                "to": "Tung Chung Line",
+                "time": 3
+            },
+            {
+                "to": "Airport Express",
+                "time": 3
             }
         ],
         "line": [
@@ -3154,6 +3248,12 @@
                 "cost": 4,
                 "fromline": "Walking",
                 "id": 111
+            },
+            {
+                "name": "Kowloon",
+                "cost": 11,
+                "fromline": "Walking",
+                "id": 45
             }
         ],
         "line": [
