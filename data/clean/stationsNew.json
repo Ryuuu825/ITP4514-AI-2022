@@ -564,12 +564,6 @@
                 "id": 27
             },
             {
-                "name": "Central",
-                "cost": 2,
-                "fromline": "Island Line",
-                "id": 1
-            },
-            {
                 "name": "Tsim Sha Tsui",
                 "cost": 3,
                 "fromline": "Tsuen Wan Line",
@@ -579,6 +573,12 @@
                 "name": "Central",
                 "cost": 2,
                 "fromline": "Tsuen Wan Line",
+                "id": 1
+            },
+            {
+                "name": "Central",
+                "cost": 2,
+                "fromline": "Island Line",
                 "id": 1
             },
             {
@@ -973,7 +973,7 @@
             },
             {
                 "name": "Admiralty",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 2
             },
@@ -2488,7 +2488,7 @@
             },
             {
                 "name": "Kwai Fong",
-                "cost": 2,
+                "cost": 3,
                 "fromline": "Tsuen Wan Line",
                 "id": 22
             },
@@ -2838,7 +2838,7 @@
         "connections": [
             {
                 "name": "Tsuen Wan",
-                "cost": 2,
+                "cost": 1,
                 "fromline": "Tsuen Wan Line",
                 "id": 25
             },
