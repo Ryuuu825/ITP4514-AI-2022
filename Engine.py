@@ -86,7 +86,8 @@ class Engine:
                 # add the walking time when changing line
                 if walktime is None:
                     # store the cost
-                    costs[i[1]] = costs[i[0]]+i[2]
+                    costs[i[1]][0] = costs[i[0]][0]+i[2]
+
                 else:
                     # store the total walking time
                     if i[3] == "Walking":
@@ -95,7 +96,9 @@ class Engine:
                         total_walkTime[i[1]] = total_walkTime[i[0]] + walktime
 
                     # store the cost with walking time
-                    costs[i[1]] = costs[i[0]] + i[2] + walktime + waittime
+                    costs[i[1]][0] = costs[i[0]][0] + i[2] + walktime + waittime
+                    # store the heurisitc of current node
+                    costs[i[0]][1] = heuristic[i[0]]+walktime
 
                 # store the path
                 if stations[i[1]] == self.path[i[0]].split(' -> ')[-1]:
@@ -105,10 +108,10 @@ class Engine:
                 # store the heurisitc of next node
                 costs[i[1]][1] = heuristic[i[1]]
                 # store the total cost
-                totalcosts[i[1]] = costs[i[1]]
+                totalcosts[i[1]] = costs[i[1]][0]
 
                 # smallest cost
-                smallcost[i[1]] = costs[i[1]]
+                smallcost[i[1]] = sum(costs[i[1]])
                 # print(path[i[1]], totalcosts[i[1]])
 
         # find the node with the lowest cost
