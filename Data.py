@@ -15,8 +15,10 @@ with open('data/clean/nodes_heuristic.json', encoding='utf-8') as file:
 heuristics = json.loads(heuristic_contents)
 data = json.loads(file_contents)
 lines = json.loads(line_contents)
-airportLine = {'56': "AsiaWorld-Expo", '47': "Airport",
-               '46': "Tsing Yi", '45': "Kowloon", '44': "Hong Kong"}
+airportLine1 = ['56', '47']
+airportLine2 =['46', '45', '44']
+airportLine1Value = {'56': "AsiaWorld-Expo", '47': "Airport"}
+airportLine2Value ={'46': "Tsing Yi", '45': "Kowloon", '44': "Hong Kong"}
 # airportLine = ['56', '47', '42', '40', '39']
 # store the stations key and value
 stations = dict()

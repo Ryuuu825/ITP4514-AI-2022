@@ -10,7 +10,7 @@ class Engine:
         self.smallcost = dict()  # for storing the sum of the cost and heuristic of the node
         for i in nodes:
             # costs array contain the distance and the heurisitc of current node
-            self.costs[i] = 999999
+            self.costs[i] = [999999,0]
             self.path[i] = ' '
             self.totalcosts[i] = 999999
             self.line[i] = []
@@ -27,7 +27,7 @@ class Engine:
             return False
         if fromLine == "Walking":
             return True
-        if curLine[-1] == "Tung Chung Line" and curNode in airportLine and nextNode in airportLine:
+        if curLine[-1] == "Tung Chung Line" and curNode in airportLine2 and nextNode in airportLine2:
             return True
         if curLine[-1] not in node_lines[nextNode]:
             return True
@@ -67,7 +67,7 @@ class Engine:
         for i in graph:
             walktime = 0
             waittime = 0
-            if (i[0] == cur_node and costs[i[0]]+i[2]+heuristic[i[0]] < (costs[i[1]]+heuristic[i[1]]) and i[1] not in closed):
+            if (i[0] == cur_node and costs[i[0]][0]+i[2]+heuristic[i[0]] < (costs[i[1]][0]+costs[i[1]][1]) and i[1] not in closed):
                 open.add(i[1])
                 if(costs[i[0]] == 0):
                     waittime = self.__findWaitingTime(i[3])
@@ -102,7 +102,8 @@ class Engine:
                     self.path[i[1]] = self.path[i[0]]
                 else:
                     self.path[i[1]] = self.path[i[0]] + ' -> ' + stations[i[1]]
-
+                # store the heurisitc of next node
+                costs[i[1]][1] = heuristic[i[1]]
                 # store the total cost
                 totalcosts[i[1]] = costs[i[1]]
 
@@ -128,10 +129,15 @@ class Engine:
         self.total_walkTime[start_node] = 0
         self.smallcost[start_node] = 0
 
-        if end_str in lines["Airport Express"] and start_str in lines["Airport Express"]:
-            goal_node = list(airportLine.keys())[list(airportLine.values()).index(end_str)]
+        if end_str in airportLine1 and end_str in lines["Airport Express"]:
+            goal_node = list(airportLine2Value.keys())[list(
+            airportLine2Value.values()).index(end_str)]
+        elif end_str in airportLine2 and end_str in airportLine1:
+            goal_node = list(airportLine1Value.keys())[list(
+        airportLine1Value.values()).index(end_str)]
         else:
-            goal_node = list(stations.keys())[list(stations.values()).index(end_str)]
+            goal_node = list(stations.keys())[list(
+            stations.values()).index(end_str)]
 
         h = heuristics[goal_node]
         # program start
