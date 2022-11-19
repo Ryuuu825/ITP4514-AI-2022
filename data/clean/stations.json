@@ -4,7 +4,7 @@
         "connections": [
             {
                 "name": "Airport",
-                "cost": 2,
+                "cost": 4,
                 "fromline": "Airport Express",
                 "id": 47
             }
@@ -25,7 +25,7 @@
         "connections": [
             {
                 "name": "AsiaWorld-Expo",
-                "cost": 2,
+                "cost": 4,
                 "fromline": "Airport Express",
                 "id": 56
             },
@@ -34,18 +34,6 @@
                 "cost": 14,
                 "fromline": "Airport Express",
                 "id": 46
-            },
-            {
-                "name": "Kowloon",
-                "cost": 22,
-                "fromline": "Airport Express",
-                "id": 45
-            },
-            {
-                "name": "Hong Kong",
-                "cost": 24,
-                "fromline": "Airport Express",
-                "id": 44
             }
         ],
         "line": [
@@ -64,27 +52,21 @@
         "connections": [
             {
                 "name": "Disneyland Resort",
-                "cost": 6,
+                "cost": 7,
                 "fromline": "Disneyland Resort Line",
                 "id": 55
             },
             {
                 "name": "Tung Chung",
-                "cost": 10,
+                "cost": 7,
                 "fromline": "Tung Chung Line",
                 "id": 43
             },
             {
                 "name": "Tsing Yi",
-                "cost": 10,
+                "cost": 6,
                 "fromline": "Tung Chung Line",
                 "id": 42
-            },
-            {
-                "name": "Tsing Yi",
-                "cost": 10,
-                "fromline": "Tung Chung Line",
-                "id": 46
             }
         ],
         "walkingTime": [
@@ -94,7 +76,7 @@
             },
             {
                 "to": "Disneyland Resort Line",
-                "time": 2
+                "time": 1
             }
         ],
         "line": [
@@ -136,7 +118,7 @@
         "connections": [
             {
                 "name": "Sheung Shui",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 75
             }
@@ -157,19 +139,19 @@
         "connections": [
             {
                 "name": "Lo Wu",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 76
             },
             {
                 "name": "Fanling",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 74
             },
             {
                 "name": "Lok Ma Chau",
-                "cost": 12,
+                "cost": 10,
                 "fromline": "East Rail Line",
                 "id": 78
             }
@@ -190,13 +172,13 @@
         "connections": [
             {
                 "name": "Sheung Shui",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 75
             },
             {
                 "name": "Tai Wo",
-                "cost": 6,
+                "cost": 5,
                 "fromline": "East Rail Line",
                 "id": 73
             }
@@ -217,13 +199,13 @@
         "connections": [
             {
                 "name": "Fanling",
-                "cost": 6,
+                "cost": 5,
                 "fromline": "East Rail Line",
                 "id": 74
             },
             {
                 "name": "Tai Po Market",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 72
             }
@@ -244,13 +226,13 @@
         "connections": [
             {
                 "name": "Tai Wo",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 73
             },
             {
                 "name": "University",
-                "cost": 7,
+                "cost": 5,
                 "fromline": "East Rail Line",
                 "id": 71
             }
@@ -271,13 +253,13 @@
         "connections": [
             {
                 "name": "Tai Po Market",
-                "cost": 7,
+                "cost": 6,
                 "fromline": "East Rail Line",
                 "id": 72
             },
             {
                 "name": "Fo Tan",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "East Rail Line",
                 "id": 69
             },
@@ -304,13 +286,13 @@
         "connections": [
             {
                 "name": "University",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "East Rail Line",
                 "id": 71
             },
             {
                 "name": "Sha Tin",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "East Rail Line",
                 "id": 68
             }
@@ -331,13 +313,13 @@
         "connections": [
             {
                 "name": "Fo Tan",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 69
             },
             {
                 "name": "Tai Wai",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 67
             },
@@ -364,25 +346,25 @@
         "connections": [
             {
                 "name": "Sha Tin",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "East Rail Line",
                 "id": 68
             },
             {
                 "name": "Kowloon Tong",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 8
             },
             {
                 "name": "Che Kung Temple",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 96
             },
             {
                 "name": "Hin Keng",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 90
             }
@@ -415,25 +397,25 @@
         "connections": [
             {
                 "name": "Tai Wai",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 67
             },
             {
                 "name": "Mong Kok East",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "East Rail Line",
                 "id": 65
             },
             {
                 "name": "Lok Fu",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 9
             },
             {
                 "name": "Shek Kip Mei",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 7
             }
@@ -466,13 +448,13 @@
         "connections": [
             {
                 "name": "Kowloon Tong",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 8
             },
             {
                 "name": "Hung Hom",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 64
             }
@@ -493,25 +475,25 @@
         "connections": [
             {
                 "name": "Mong Kok East",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 65
             },
             {
                 "name": "Exhibition Centre",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "East Rail Line",
                 "id": 94
             },
             {
                 "name": "Ho Man Tin",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 84
             },
             {
                 "name": "East Tsim Sha Tsui",
-                "cost": 4,
+                "cost": 5,
                 "fromline": "Tuen Ma Line",
                 "id": 80
             }
@@ -544,13 +526,13 @@
         "connections": [
             {
                 "name": "Hung Hom",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "East Rail Line",
                 "id": 64
             },
             {
                 "name": "Admiralty",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 2
             }
@@ -571,7 +553,7 @@
         "connections": [
             {
                 "name": "Exhibition Centre",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "East Rail Line",
                 "id": 94
             },
@@ -582,26 +564,26 @@
                 "id": 27
             },
             {
-                "name": "Central",
-                "cost": 3,
-                "fromline": "Island Line",
-                "id": 1
-            },
-            {
                 "name": "Tsim Sha Tsui",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tsuen Wan Line",
                 "id": 3
             },
             {
                 "name": "Central",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 1
             },
             {
+                "name": "Central",
+                "cost": 2,
+                "fromline": "Island Line",
+                "id": 1
+            },
+            {
                 "name": "Ocean Park",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "South Island Line",
                 "id": 86
             }
@@ -613,7 +595,7 @@
             },
             {
                 "to": "Tsuen Wan Line",
-                "time": 3
+                "time": 4
             },
             {
                 "to": "South Island Line",
@@ -646,7 +628,7 @@
         "connections": [
             {
                 "name": "Heng Fa Chuen",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 36
             }
@@ -667,13 +649,13 @@
         "connections": [
             {
                 "name": "Chai Wan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 37
             },
             {
                 "name": "Shau Kei Wan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 35
             }
@@ -694,13 +676,13 @@
         "connections": [
             {
                 "name": "Heng Fa Chuen",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 36
             },
             {
                 "name": "Sai Wan Ho",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 34
             }
@@ -721,13 +703,13 @@
         "connections": [
             {
                 "name": "Shau Kei Wan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 35
             },
             {
                 "name": "Tai Koo",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 33
             }
@@ -748,13 +730,13 @@
         "connections": [
             {
                 "name": "Sai Wan Ho",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 34
             },
             {
                 "name": "Quarry Bay",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 32
             }
@@ -775,19 +757,19 @@
         "connections": [
             {
                 "name": "Tai Koo",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 33
             },
             {
                 "name": "North Point",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 31
             },
             {
                 "name": "Yau Tong",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "Tseung Kwan O Line",
                 "id": 48
             },
@@ -826,13 +808,13 @@
         "connections": [
             {
                 "name": "Quarry Bay",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 32
             },
             {
                 "name": "Fortress Hill",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 30
             },
@@ -871,13 +853,13 @@
         "connections": [
             {
                 "name": "North Point",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 31
             },
             {
                 "name": "Tin Hau",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Island Line",
                 "id": 29
             }
@@ -898,13 +880,13 @@
         "connections": [
             {
                 "name": "Fortress Hill",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Island Line",
                 "id": 30
             },
             {
                 "name": "Causeway Bay",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 28
             }
@@ -925,7 +907,7 @@
         "connections": [
             {
                 "name": "Tin Hau",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 29
             },
@@ -958,7 +940,7 @@
             },
             {
                 "name": "Admiralty",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 2
             }
@@ -979,19 +961,19 @@
         "connections": [
             {
                 "name": "Admiralty",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 2
             },
             {
                 "name": "Sheung Wan",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Island Line",
                 "id": 26
             },
             {
                 "name": "Admiralty",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 2
             },
@@ -1026,13 +1008,13 @@
         "connections": [
             {
                 "name": "Central",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 1
             },
             {
                 "name": "Sai Ying Pun",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 81
             }
@@ -1053,7 +1035,7 @@
         "connections": [
             {
                 "name": "Sheung Wan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Island Line",
                 "id": 26
             },
@@ -1086,7 +1068,7 @@
             },
             {
                 "name": "Kennedy Town",
-                "cost": 2,
+                "cost": 1,
                 "fromline": "Island Line",
                 "id": 83
             }
@@ -1107,7 +1089,7 @@
         "connections": [
             {
                 "name": "HKU",
-                "cost": 2,
+                "cost": 1,
                 "fromline": "Island Line",
                 "id": 82
             }
@@ -1128,19 +1110,19 @@
         "connections": [
             {
                 "name": "Yau Tong",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Kwun Tong Line",
                 "id": 48
             },
             {
                 "name": "Tseung Kwan O",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tseung Kwan O Line",
                 "id": 50
             },
             {
                 "name": "Yau Tong",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tseung Kwan O Line",
                 "id": 48
             }
@@ -1173,25 +1155,25 @@
         "connections": [
             {
                 "name": "Tiu Keng Leng",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Kwun Tong Line",
                 "id": 49
             },
             {
                 "name": "Lam Tin",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 38
             },
             {
                 "name": "Tiu Keng Leng",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tseung Kwan O Line",
                 "id": 49
             },
             {
                 "name": "Quarry Bay",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "Tseung Kwan O Line",
                 "id": 32
             }
@@ -1224,13 +1206,13 @@
         "connections": [
             {
                 "name": "Yau Tong",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 48
             },
             {
                 "name": "Kwun Tong",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 15
             }
@@ -1251,13 +1233,13 @@
         "connections": [
             {
                 "name": "Lam Tin",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 38
             },
             {
                 "name": "Ngau Tau Kok",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 14
             }
@@ -1278,13 +1260,13 @@
         "connections": [
             {
                 "name": "Kwun Tong",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Kwun Tong Line",
                 "id": 15
             },
             {
                 "name": "Kowloon Bay",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 13
             }
@@ -1311,7 +1293,7 @@
             },
             {
                 "name": "Choi Hung",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Kwun Tong Line",
                 "id": 12
             }
@@ -1332,13 +1314,13 @@
         "connections": [
             {
                 "name": "Kowloon Bay",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 13
             },
             {
                 "name": "Diamond Hill",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 11
             }
@@ -1359,13 +1341,13 @@
         "connections": [
             {
                 "name": "Choi Hung",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 12
             },
             {
                 "name": "Wong Tai Sin",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Kwun Tong Line",
                 "id": 10
             },
@@ -1377,7 +1359,7 @@
             },
             {
                 "name": "Kai Tak",
-                "cost": 4,
+                "cost": 5,
                 "fromline": "Tuen Ma Line",
                 "id": 91
             }
@@ -1410,13 +1392,13 @@
         "connections": [
             {
                 "name": "Diamond Hill",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 11
             },
             {
                 "name": "Lok Fu",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 9
             }
@@ -1437,7 +1419,7 @@
         "connections": [
             {
                 "name": "Wong Tai Sin",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 10
             },
@@ -1464,13 +1446,13 @@
         "connections": [
             {
                 "name": "Kowloon Tong",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 8
             },
             {
                 "name": "Prince Edward",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 16
             }
@@ -1491,25 +1473,25 @@
         "connections": [
             {
                 "name": "Shek Kip Mei",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 7
             },
             {
                 "name": "Mong Kok",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Kwun Tong Line",
                 "id": 6
             },
             {
                 "name": "Sham Shui Po",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 17
             },
             {
                 "name": "Mong Kok",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Tsuen Wan Line",
                 "id": 6
             }
@@ -1542,25 +1524,25 @@
         "connections": [
             {
                 "name": "Prince Edward",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 16
             },
             {
                 "name": "Yau Ma Tei",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 5
             },
             {
                 "name": "Prince Edward",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 16
             },
             {
                 "name": "Yau Ma Tei",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 5
             }
@@ -1593,25 +1575,25 @@
         "connections": [
             {
                 "name": "Mong Kok",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 6
             },
             {
                 "name": "Ho Man Tin",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Kwun Tong Line",
                 "id": 84
             },
             {
                 "name": "Mong Kok",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 6
             },
             {
                 "name": "Jordan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 4
             }
@@ -1634,25 +1616,25 @@
         "connections": [
             {
                 "name": "Yau Ma Tei",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 5
             },
             {
                 "name": "Whampo",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 85
             },
             {
                 "name": "To Kwa Wan",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 93
             },
             {
                 "name": "Hung Hom",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 64
             }
@@ -1685,7 +1667,7 @@
         "connections": [
             {
                 "name": "Ho Man Tin",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Kwun Tong Line",
                 "id": 84
             }
@@ -1706,7 +1688,7 @@
         "connections": [
             {
                 "name": "Ma On Shan",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 102
             }
@@ -1727,13 +1709,13 @@
         "connections": [
             {
                 "name": "Wu Kai Sha",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 103
             },
             {
                 "name": "Heng On",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 101
             }
@@ -1754,13 +1736,13 @@
         "connections": [
             {
                 "name": "Ma On Shan",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 102
             },
             {
                 "name": "Tai Shui Hang",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 100
             }
@@ -1781,13 +1763,13 @@
         "connections": [
             {
                 "name": "Heng On",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 101
             },
             {
                 "name": "Shek Mun",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 99
             }
@@ -1808,13 +1790,13 @@
         "connections": [
             {
                 "name": "Tai Shui Hang",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 100
             },
             {
                 "name": "City One",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 98
             }
@@ -1835,13 +1817,13 @@
         "connections": [
             {
                 "name": "Shek Mun",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 99
             },
             {
                 "name": "Sha Tin Wai",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 97
             }
@@ -1862,13 +1844,13 @@
         "connections": [
             {
                 "name": "City One",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 98
             },
             {
                 "name": "Che Kung Temple",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 96
             }
@@ -1889,13 +1871,13 @@
         "connections": [
             {
                 "name": "Sha Tin Wai",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 97
             },
             {
                 "name": "Tai Wai",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 67
             }
@@ -1916,13 +1898,13 @@
         "connections": [
             {
                 "name": "Tai Wai",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 67
             },
             {
                 "name": "Diamond Hill",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "Tuen Ma Line",
                 "id": 11
             }
@@ -1943,13 +1925,13 @@
         "connections": [
             {
                 "name": "Diamond Hill",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 11
             },
             {
                 "name": "Sung Wong Toi",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Tuen Ma Line",
                 "id": 92
             }
@@ -1970,13 +1952,13 @@
         "connections": [
             {
                 "name": "Kai Tak",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 91
             },
             {
                 "name": "To Kwa Wan",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 93
             }
@@ -1997,13 +1979,13 @@
         "connections": [
             {
                 "name": "Sung Wong Toi",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 92
             },
             {
                 "name": "Ho Man Tin",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 84
             }
@@ -2024,13 +2006,13 @@
         "connections": [
             {
                 "name": "Hung Hom",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 64
             },
             {
                 "name": "Austin",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 111
             },
@@ -2057,13 +2039,13 @@
         "connections": [
             {
                 "name": "East Tsim Sha Tsui",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 80
             },
             {
                 "name": "Nam Cheong",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 53
             },
@@ -2090,25 +2072,25 @@
         "connections": [
             {
                 "name": "Austin",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 111
             },
             {
                 "name": "Mei Foo",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 20
             },
             {
                 "name": "Lai King",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "Tung Chung Line",
                 "id": 21
             },
             {
                 "name": "Olympic",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tung Chung Line",
                 "id": 41
             }
@@ -2141,25 +2123,25 @@
         "connections": [
             {
                 "name": "Nam Cheong",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tuen Ma Line",
                 "id": 53
             },
             {
                 "name": "Tsuen Wan West",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "Tuen Ma Line",
                 "id": 114
             },
             {
                 "name": "Lai King",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 21
             },
             {
                 "name": "Lai Chi Kok",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 19
             }
@@ -2192,13 +2174,13 @@
         "connections": [
             {
                 "name": "Mei Foo",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "Tuen Ma Line",
                 "id": 20
             },
             {
                 "name": "Kam Sheung Road",
-                "cost": 7,
+                "cost": 6,
                 "fromline": "Tuen Ma Line",
                 "id": 115
             }
@@ -2219,13 +2201,13 @@
         "connections": [
             {
                 "name": "Tsuen Wan West",
-                "cost": 7,
+                "cost": 6,
                 "fromline": "Tuen Ma Line",
                 "id": 114
             },
             {
                 "name": "Yuen Long",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "Tuen Ma Line",
                 "id": 116
             }
@@ -2246,13 +2228,13 @@
         "connections": [
             {
                 "name": "Kam Sheung Road",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "Tuen Ma Line",
                 "id": 115
             },
             {
                 "name": "Long Ping",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 117
             }
@@ -2273,13 +2255,13 @@
         "connections": [
             {
                 "name": "Yuen Long",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 116
             },
             {
                 "name": "Tin Shui Wai",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 118
             }
@@ -2300,13 +2282,13 @@
         "connections": [
             {
                 "name": "Long Ping",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 117
             },
             {
                 "name": "Siu Hong",
-                "cost": 6,
+                "cost": 5,
                 "fromline": "Tuen Ma Line",
                 "id": 119
             }
@@ -2327,13 +2309,13 @@
         "connections": [
             {
                 "name": "Tin Shui Wai",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "Tuen Ma Line",
                 "id": 118
             },
             {
                 "name": "Tuen Mun",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 120
             }
@@ -2354,7 +2336,7 @@
         "connections": [
             {
                 "name": "Siu Hong",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tuen Ma Line",
                 "id": 119
             }
@@ -2375,7 +2357,7 @@
         "connections": [
             {
                 "name": "Sunny Bay",
-                "cost": 10,
+                "cost": 7,
                 "fromline": "Tung Chung Line",
                 "id": 54
             }
@@ -2397,13 +2379,13 @@
             {
                 "id": 54,
                 "name": "Sunny Bay",
-                "cost": 10,
+                "cost": 8,
                 "fromline": "Tung Chung Line"
             },
             {
                 "id": 21,
                 "name": "Lai King",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "Tung Chung Line"
             },
             {
@@ -2446,19 +2428,25 @@
             {
                 "id": 54,
                 "name": "Sunny Bay",
-                "cost": 10,
+                "cost": 8,
                 "fromline": "Tung Chung Line"
             },
             {
                 "id": 21,
                 "name": "Lai King",
-                "cost": 5,
+                "cost": 4,
                 "fromline": "Tung Chung Line"
             },
             {
                 "id": 42,
                 "name": "Tsing Yi",
                 "cost": 0,
+                "fromline": "Airport Express"
+            },
+            {
+                "id": 45,
+                "name": "Kowloon",
+                "cost": 7,
                 "fromline": "Airport Express"
             }
         ],
@@ -2488,13 +2476,13 @@
         "connections": [
             {
                 "name": "Tsing Yi",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tung Chung Line",
                 "id": 42
             },
             {
                 "name": "Nam Cheong",
-                "cost": 6,
+                "cost": 3,
                 "fromline": "Tung Chung Line",
                 "id": 53
             },
@@ -2506,7 +2494,7 @@
             },
             {
                 "name": "Mei Foo",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tsuen Wan Line",
                 "id": 20
             }
@@ -2539,13 +2527,13 @@
         "connections": [
             {
                 "name": "Nam Cheong",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tung Chung Line",
                 "id": 53
             },
             {
                 "name": "Kowloon",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tung Chung Line",
                 "id": 40
             }
@@ -2566,13 +2554,13 @@
         "connections": [
             {
                 "name": "Olympic",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "Tung Chung Line",
                 "id": 41
             },
             {
                 "name": "Hong Kong",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tung Chung Line",
                 "id": 39
             },
@@ -2581,11 +2569,21 @@
                 "cost": 11,
                 "fromline": "Walking",
                 "id": 888
+            },
+            {
+                "name": "Kowloon",
+                "cost": 0,
+                "fromline": "Tung Chung Line",
+                "id": 44
             }
         ],
         "walkingTime": [
             {
                 "to": "Tung Chung Line",
+                "time": 4
+            },
+            {
+                "to": "Airport Express",
                 "time": 4
             }
         ],
@@ -2606,20 +2604,20 @@
         "name": "Kowloon",
         "connections": [
             {
-                "id":47,
-                "name": "Airport",
-                "cost": 22,
+                "id":46,
+                "name": "Tsing Yi",
+                "cost": 8,
                 "fromline": "Airport Express"
             },
             {
-                "name": "Olympic",
-                "cost": 4,
-                "fromline": "Tung Chung Line",
-                "id": 41
+                "id":44,
+                "name": "Hong Kong",
+                "cost": 3,
+                "fromline": "Airport Express"
             },
             {
                 "name": "Hong Kong West Kowloon",
-                "cost": 11,
+                "cost": 13,
                 "fromline": "Walking",
                 "id": 888
             }
@@ -2627,6 +2625,10 @@
         "walkingTime": [
             {
                 "to": "Tung Chung Line",
+                "time": 4
+            },
+            {
+                "to": "Airport Express",
                 "time": 4
             }
         ],
@@ -2647,7 +2649,7 @@
             {
                 "id": 40,
                 "name": "Kowloon",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tung Chung Line"
             },
             {
@@ -2690,9 +2692,9 @@
         "name": "Hong Kong",
         "connections": [
             {
-                "id": 47,
-                "name": "Airport",
-                "cost": 24,
+                "id": 45,
+                "name": "Kowloon",
+                "cost": 3,
                 "fromline": "Airport Express"
             },
             {
@@ -2734,7 +2736,7 @@
         "connections": [
             {
                 "name": "Hang Hau",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tseung Kwan O Line",
                 "id": 51
             }
@@ -2755,13 +2757,13 @@
         "connections": [
             {
                 "name": "Po Lam",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tseung Kwan O Line",
                 "id": 52
             },
             {
                 "name": "Tseung Kwan O",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tseung Kwan O Line",
                 "id": 50
             }
@@ -2782,19 +2784,19 @@
         "connections": [
             {
                 "name": "Hang Hau",
-                "cost": 4,
+                "cost": 3,
                 "fromline": "Tseung Kwan O Line",
                 "id": 51
             },
             {
                 "name": "Tiu Keng Leng",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tseung Kwan O Line",
                 "id": 49
             },
             {
                 "name": "LOHAS Park",
-                "cost": 7,
+                "cost": 6,
                 "fromline": "Tseung Kwan O Line",
                 "id": 57
             }
@@ -2815,7 +2817,7 @@
         "connections": [
             {
                 "name": "Tai Wo Hau",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 24
             }
@@ -2836,13 +2838,13 @@
         "connections": [
             {
                 "name": "Tsuen Wan",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Tsuen Wan Line",
                 "id": 25
             },
             {
                 "name": "Kwai Hing",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 23
             }
@@ -2869,7 +2871,7 @@
             },
             {
                 "name": "Kwai Fong",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 22
             }
@@ -2890,13 +2892,13 @@
         "connections": [
             {
                 "name": "Kwai Hing",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Tsuen Wan Line",
                 "id": 23
             },
             {
                 "name": "Lai King",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 21
             }
@@ -2917,13 +2919,13 @@
         "connections": [
             {
                 "name": "Mei Foo",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 20
             },
             {
                 "name": "Cheung Sha Wan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 18
             }
@@ -2944,13 +2946,13 @@
         "connections": [
             {
                 "name": "Lai Chi Kok",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 19
             },
             {
                 "name": "Sham Shui Po",
-                "cost": 3,
+                "cost": 1,
                 "fromline": "Tsuen Wan Line",
                 "id": 17
             }
@@ -2971,7 +2973,7 @@
         "connections": [
             {
                 "name": "Cheung Sha Wan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 18
             },
@@ -2998,13 +3000,13 @@
         "connections": [
             {
                 "name": "Yau Ma Tei",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 5
             },
             {
                 "name": "Tsim Sha Tsui",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 3
             }
@@ -3035,13 +3037,13 @@
         "connections": [
             {
                 "name": "Jordan",
-                "cost": 3,
+                "cost": 2,
                 "fromline": "Tsuen Wan Line",
                 "id": 4
             },
             {
                 "name": "Admiralty",
-                "cost": 5,
+                "cost": 3,
                 "fromline": "Tsuen Wan Line",
                 "id": 2
             },
@@ -3068,13 +3070,13 @@
         "connections": [
             {
                 "name": "Admiralty",
-                "cost": 6,
+                "cost": 4,
                 "fromline": "South Island Line",
                 "id": 2
             },
             {
                 "name": "Wong Chuk Hang",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "South Island Line",
                 "id": 87
             }
@@ -3095,13 +3097,13 @@
         "connections": [
             {
                 "name": "Ocean Park",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "South Island Line",
                 "id": 86
             },
             {
                 "name": "Lei Tung",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "South Island Line",
                 "id": 88
             }
@@ -3122,13 +3124,13 @@
         "connections": [
             {
                 "name": "Wong Chuk Hang",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "South Island Line",
                 "id": 87
             },
             {
                 "name": "South Horizons",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "South Island Line",
                 "id": 89
             }
@@ -3149,7 +3151,7 @@
         "connections": [
             {
                 "name": "Lei Tung",
-                "cost": 4,
+                "cost": 2,
                 "fromline": "South Island Line",
                 "id": 88
             }
@@ -3170,7 +3172,7 @@
         "connections": [
             {
                 "name": "Sheung Shui",
-                "cost": 12,
+                "cost": 10,
                 "fromline": "East Rail Line",
                 "id": 75
             }
@@ -3179,7 +3181,7 @@
             "East Rail Line"
         ],
         "line_code": [
-            "ERL"
+            "EAL"
         ],
         "id": 78,
         "code": "LMC",
@@ -3191,7 +3193,7 @@
         "connections": [
             {
                 "name": "Tseung Kwan O",
-                "cost": 7,
+                "cost": 6,
                 "fromline": "Tseung Kwan O Line",
                 "id": 50
             }
@@ -3227,7 +3229,7 @@
             "East Rail Line"
         ],
         "line_code": [
-            "ERL"
+            "EAL"
         ],
         "id": 70,
         "code": "RAC",
