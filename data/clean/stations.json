@@ -990,6 +990,16 @@
                 "id": 44
             }
         ],
+        "walkingTime": [
+            {
+                "to": "Islan Line",
+                "time": 3
+            },
+            {
+                "to": "Tsuen Wan Line",
+                "time": 3
+            }
+        ],
         "line": [
             "Island Line",
             "Tsuen Wan Line"
