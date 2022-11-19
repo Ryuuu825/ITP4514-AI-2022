@@ -124,7 +124,7 @@ class Engine:
             stations.values()).index(start_str)]
         self.open.add(start_node)
         self.path[start_node] = start_str
-        self.costs[start_node] = 0
+        self.costs[start_node] = [999999,0]
         self.totalcosts[start_node] = 0
         self.total_walkTime[start_node] = 0
         self.smallcost[start_node] = 0
@@ -134,7 +134,7 @@ class Engine:
             airportLine2Value.values()).index(end_str)]
         elif end_str in airportLine2 and end_str in airportLine1:
             goal_node = list(airportLine1Value.keys())[list(
-        airportLine1Value.values()).index(end_str)]
+            airportLine1Value.values()).index(end_str)]
         else:
             goal_node = list(stations.keys())[list(
             stations.values()).index(end_str)]
