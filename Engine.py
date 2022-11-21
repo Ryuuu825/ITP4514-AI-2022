@@ -57,7 +57,7 @@ class Engine:
                     line[i[0]].append(i[3])
                 next_line = line[i[0]].copy()
                 if (self.__checkChangeLine(line[i[0]], i[0], i[1], i[3])):
-                    waittime += self.__findWaitingTime(i[3])
+                    waittime += self.__findWaitingTime(i[3])+3
                     walktime = self.__findWalkingTime(i[0], i[3])
                     if i[3] == line[i[0]][-1]:
                         pass
@@ -148,9 +148,20 @@ class Engine:
         # program start
         self.__A_star(graph, costs, open, closed, start_node,
             h, totalcosts, line, total_walkTime, stations, smallcost)
+        changeTimes = len(line[goal_node])-1
+        if(start_node in change_lines_time.keys() and len(line[goal_node]) > 1):
+            secondNode = list(stations.keys())[list(stations.values()).index(self.path[goal_node].split(' -> ')[1])]
+            if line[secondNode][-1] != line[goal_node][0]:
+                line[goal_node].pop(0)
+        for i in line[goal_node]:
+            if i == "Walking":
+                changeTimes -= 1
+            if changeTimes < 0:
+                changeTimes = 0
+        totalcosts[goal_node] = totalcosts[goal_node] - 3*changeTimes
         return {
             "route": self.path[goal_node],
-            "interchange": len(line[goal_node])-1,
+            "interchange": changeTimes,
             "line": line[goal_node],
             "cost": totalcosts[goal_node],
             "walking": total_walkTime[goal_node]
