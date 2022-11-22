@@ -1,17 +1,16 @@
 import Engine
 from Data import * 
 
-import random
-
-
 
 Engine = Engine.Engine()
 
 def main():
-    for i in range(0,5):
-        # get a random start and end node
-        start = random.choice(list(stations.values()))
-        end = random.choice(list(stations.values()))
+    while True:
+        print("Welcome to MTR Route Finder")
+        print("Please enter the start station: ")
+        start = input()
+        print("Please enter the end station: ")
+        end = input()
         # get the path
         data = Engine.get(start, end)
 
