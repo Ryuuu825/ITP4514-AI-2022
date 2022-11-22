@@ -2436,18 +2436,6 @@
                 "fromline": "Airport Express"
             },
             {
-                "id": 54,
-                "name": "Sunny Bay",
-                "cost": 8,
-                "fromline": "Tung Chung Line"
-            },
-            {
-                "id": 21,
-                "name": "Lai King",
-                "cost": 4,
-                "fromline": "Tung Chung Line"
-            },
-            {
                 "id": 42,
                 "name": "Tsing Yi",
                 "cost": 0,
@@ -2598,12 +2586,10 @@
             }
         ],
         "line": [
-            "Tung Chung Line",
-            "Airport Express"
+            "Tung Chung Line"
         ],
         "line_code": [
-            "TCL",
-            "AEL"
+            "TCL"
         ],
         "id": 40,
         "code": "KOW",
@@ -2630,6 +2616,12 @@
                 "cost": 13,
                 "fromline": "Walking",
                 "id": 888
+            },
+            {
+                "name": "Kowloon",
+                "cost": 0,
+                "fromline": "Airport Express",
+                "id": 39
             }
         ],
         "walkingTime": [
@@ -2686,12 +2678,10 @@
             }
         ],
         "line": [
-            "Tung Chung Line",
-            "Airport Express"
+            "Tung Chung Line"
         ],
         "line_code": [
-            "TCL",
-            "AEL"
+            "TCL"
         ],
         "id": 39,
         "code": "HOK",
